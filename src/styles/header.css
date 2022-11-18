@@ -1,0 +1,33 @@
+.content-header {
+  width: 100vw;
+  height: 100px;
+  /* background-color: #f0141e; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+
+.content-header img {
+  width: 130px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.menu-header ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+}
+
+.menu-header li {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu-header a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,20 @@
+.content-home {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0, 1) 0%,
+      rgb(19, 19, 19, 0.5) 50%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("../assets/imgs/background-home.svg");
+  background-position: center;
+}
+
+#nav-home {
+  color: #ec111a;
+}
+
+.menu-header a:hover {
+  color: #ec111a;
+}
