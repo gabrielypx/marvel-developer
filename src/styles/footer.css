@@ -1,14 +1,12 @@
 .content-footer{
-    position: relative;
-    top: 170px;
-    background-color: #000;
+    /* background-color: #000; */
     width: 100%;
-    height: 100px;
+    height: 80px;
     color: #fff;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .icons-footer ul{
@@ -16,6 +14,7 @@
     flex-direction: row;
     align-items: center;
     height: 40px;
+    margin-left: 80px;
 }
 
 .icons-footer li{
@@ -24,14 +23,14 @@
 }
 
 .icons-footer img{
-    width: 30px;
-    height: 30px;
-
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
 }
 
 .icons-footer img:hover{
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
 }
 
 .text-designed{
@@ -39,7 +38,7 @@
     font-family: "Roboto Condensed";
     font-weight: 600;
     font-size: 14px;
-    margin-top: 10px;
+    margin-right: 80px;
 }
 
 .text-designed span{
